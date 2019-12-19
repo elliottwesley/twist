@@ -13,7 +13,7 @@ My contributions to the project were as follows:
 - Various formatting/OCD fixes wherever found.
 - Preparation and deployment of the app on Heroku.  Can be found at https://twist-final-2019.herokuapp.com/
 
-Difficulties that I ran into had primarily to do with learning more features of mongoDB Atlas, mostly the ability to manually edit data within the databases in the cluster, and syntax errors in the unused population script.  These were easily learned in the case of the former by experimentation, and fixed in the case of the latter by noting where the command-line interface pinpointed the errors.
+Difficulties that I ran into had primarily to do with learning more features of mongoDB Atlas, mostly the ability to manually edit data within the databases in the cluster, and syntax errors in the unused population script.  These were easily learned in the case of the former by experimentation, and fixed in the case of the latter by noting where the command-line interface pinpointed the errors.  A problem in the deployment stage was that nothing could be appended to a production database when configuration variables were set for this to happen.  This was rectified by removing the MONGODB_URI configuration variable from the settings on the application, causing the app to function normally.
 
 Known incomplete features include:
 - There is no error message for inputting incorrect credentials when attempting to log in.
