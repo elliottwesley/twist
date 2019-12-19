@@ -7,7 +7,7 @@ My contributions to the project were as follows:
 - Transcribed/created admin and registrant use cases.
 - Designed entity-relationship diagrams for the above use cases.
 - Designed an updated blueprint of our desired database.
-- Created template database on mongoDB Atlas.
+- Created database on mongoDB Atlas.
 - Created one model and edited schemas for data types.
 - Began work on a script to populate our database with placeholder/dummy data (not implemented).
 - Various formatting/OCD fixes wherever found.
