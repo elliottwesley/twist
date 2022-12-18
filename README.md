@@ -11,7 +11,8 @@ My contributions to the project were as follows:
 - Created one model and edited schemas for data types.
 - Began work on a script to populate our database with placeholder/dummy data (not implemented).
 - Various formatting/OCD fixes wherever found.
-- Preparation and deployment of the app on Heroku.  Can be found at https://twist-final-2019.herokuapp.com/
+- Preparation and deployment of the app on Heroku.  ~~Can be found at https://twist-final-2019.herokuapp.com/~~
+  - **UPDATE (Dec 2022)** - Heroku sunsetted their Free tier product last month, and as such the link no longer works.
 
 One of the difficulties that I ran into was syntax errors in the unused population script, fixed by noting where the command-line interface pinpointed the errors.  I also had two problems with deploying the site on Heroku.  First, the heroku CLI thought the file structure was that of before the push in which I altered the file structure so that the app-crucial structures were in the root folder.  This was fixed by re-cloning the repository to my machine and trying again.  Another problem in the deployment stage was that nothing could be appended to a production database when configuration variables were set for this to happen.  This was rectified by removing the MONGODB_URI configuration variable from the settings on the application, causing the app to function normally.
 
